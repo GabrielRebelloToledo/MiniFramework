@@ -1,0 +1,22 @@
+<h1>Sobre nos</h1>
+<hr>
+
+<?php foreach ($this->view->dados as $indice => $informacoes) {?>
+
+	 <h1><?= $informacoes['titulo'] ?></h1>
+	
+	<p><?= $informacoes['descricao']?></p>
+	<hr>
+	
+
+
+<?php } ?>
+
+
+<?php
+
+//echo "<pre>";
+//print_r($this->view->dados);
+//echo "<pre>";
+
+?>
